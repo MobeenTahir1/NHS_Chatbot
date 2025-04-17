@@ -34,7 +34,7 @@ def main():
         if entity and column and response and "sorry" not in response.lower():
             st.success("✅ Match found!")
             st.write(f"**Health Body:** {entity}")
-            st.write(f"**Column Matched:** {column}")
+            # st.write(f"**Column Matched:** {column}")
             st.write(f"**Answer:** {response}")
         else:
             st.warning("⚠️ Sorry, I couldn't find a confident match.")
